@@ -7,7 +7,7 @@ const memories = [
   {
     id: 1,
     title: "Our First Date 💕",
-    date: "March 13, 2024",
+    date: "March 13, 2026",
     description: "Our first date at SM Seaside! We watched 'The Loved One' together. After the movie, we had dinner at Locas Cafe and walked hand in hand at the Skypark at night. The city lights were shining, but you were the brightest star I've ever seen. That night, I knew my life would never be the same. ✨",
     emoji: "🎬",
     imageBg: "bg-gradient-to-br from-purple-400/20 to-pink-400/20"
@@ -15,7 +15,7 @@ const memories = [
   {
     id: 2,
     title: "First Time at Home 🏠",
-    date: "March 15, 2024",
+    date: "March 15, 2026",
     description: "You came over to my house for the first time! I was so nervous but you made everything feel so natural. We ate jollibee together, watched movies in my room, and you met my family. They absolutely love you! You fell asleep on my shoulder while listening to music, and I realized that this is what home feels like - not a place, but being with you, baby. 🥰",
     emoji: "🏡",
     imageBg: "bg-gradient-to-br from-amber-400/20 to-orange-400/20"
@@ -23,7 +23,7 @@ const memories = [
   {
     id: 3,
     title: "The Day We Became Official 💍",
-    date: "April 9, 2024",
+    date: "April 9, 2026",
     description: "The most unforgettable night! We went to Sip Cafe for dinner, then walked around IT Park. Under the twinkling lights (Well inside the mall lol), I finally asked you to be my girlfriend. My heart was racing so fast! After you said yes (best moment of my life 💖), we celebrated with tea and chocolate drinks at Bo's Coffee. That tea will forever taste like happiness to me. This is the day my whole world changed for the better, baby. 🌹",
     emoji: "💑",
     imageBg: "bg-gradient-to-br from-rose-400/20 to-pink-400/20"
