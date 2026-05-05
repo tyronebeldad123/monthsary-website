@@ -1,0 +1,39 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gradient-to-b from-[#1a0b13] to-[#2d1424] min-h-screen text-gray-200;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl shadow-xl;
+  }
+  
+  .pastel-gradient {
+    background: linear-gradient(135deg, #ff9eb5 0%, #ffd6e8 100%);
+  }
+  
+  .secret-pulse {
+    animation: softPulse 2s infinite;
+  }
+  
+  @keyframes softPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(255, 158, 181, 0.4); }
+    50% { box-shadow: 0 0 0 12px rgba(255, 158, 181, 0); }
+  }
+  
+  .floating {
+    animation: float 4s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+}
