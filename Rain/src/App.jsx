@@ -3,10 +3,11 @@ import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Landing from './components/Landing';
 import Timeline from './components/Timeline';
-import PhotoGallery from './components/PhotoGallery';  // Add this import
+import PhotoGallery from './components/PhotoGallery';
 import SecretSection from './components/SecretSection';
 import OpenWhen from './components/OpenWhen';
 import Footer from './components/Footer';
+import MusicPlayer from './components/MusicPlayer'; // Add this import
 
 function App() {
   const [showContent, setShowContent] = useState(false);
@@ -45,10 +46,13 @@ function App() {
 
       <Landing />
       <Timeline />
-      <PhotoGallery />  {/* Add this line */}
+      <PhotoGallery />
       <SecretSection />
       <OpenWhen />
       <Footer />
+      
+      {/* Add Music Player */}
+      <MusicPlayer />
     </div>
   );
 }
